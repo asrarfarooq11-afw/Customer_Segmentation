@@ -1,7 +1,19 @@
 import streamlit as st
 import pandas as pd
 import joblib
-
+st.markdown("""
+<style>
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #888;
+    font-size: 14px;
+}
+.footer strong {
+    color: #ccc;
+}
+</style>
+""", unsafe_allow_html=True)
 # ─── PAGE CONFIG ─────────────────────────
 st.set_page_config(
     page_title="Customer Segmentation",
