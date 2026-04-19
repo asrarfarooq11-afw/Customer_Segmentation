@@ -8,36 +8,6 @@ st.set_page_config(
     layout="centered"
 )
 
-# ─── SIMPLE CLEAN CSS ────────────────────
-st.markdown("""
-<style>
-body {
-    background-color: #0e1117;
-}
-h1, h2, h3 {
-    color: #ffffff;
-}
-.stButton>button {
-    background-color: #6c63ff;
-    color: white;
-    border-radius: 10px;
-    padding: 10px 20px;
-}
-.stButton>button:hover {
-    background-color: #5848d6;
-}
-.footer {
-    text-align: center;
-    margin-top: 50px;
-    color: #888;
-    font-size: 14px;
-}
-.footer strong {
-    color: #ccc;
-}
-</style>
-""", unsafe_allow_html=True)
-
 # ─── TITLE ───────────────────────────────
 st.title("Customer Segmentation App")
 st.write("Enter customer details to predict the segment")
@@ -100,6 +70,6 @@ st.markdown("""
 <div class="footer">
     ✦ made with love & late nights by ✦<br>
     <strong>Asrar Farooq Wani</strong><br>
-     with <strong>Rutba Asrar Wani</strong>
+     with <strong>coffee and Pringles</strong>
 </div>
 """, unsafe_allow_html=True)
