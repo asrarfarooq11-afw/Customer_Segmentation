@@ -5,7 +5,6 @@ import joblib
 # ─── PAGE CONFIG ─────────────────────────
 st.set_page_config(
     page_title="Customer Segmentation",
-    page_icon="📊",
     layout="centered"
 )
 
@@ -40,7 +39,7 @@ h1, h2, h3 {
 """, unsafe_allow_html=True)
 
 # ─── TITLE ───────────────────────────────
-st.title("📊 Customer Segmentation App")
+st.title("Customer Segmentation App")
 st.write("Enter customer details to predict the segment")
 
 # ─── LOAD MODELS ─────────────────────────
@@ -99,8 +98,8 @@ if st.button("Predict Segment"):
 # ─── FOOTER ──────────────────────────────
 st.markdown("""
 <div class="footer">
-    ✦ made with love & late nights ✦<br>
+    ✦ made with love & late nights by ✦<br>
     <strong>Asrar Farooq Wani</strong><br>
-    in collaboration with <strong>Rutba Asrar Wani</strong>
+     with <strong>Rutba Asrar Wani</strong>
 </div>
 """, unsafe_allow_html=True)
